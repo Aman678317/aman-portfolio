@@ -530,6 +530,18 @@ html.light-theme {
   line-height: 1.75;
 }
 
+.about__link {
+  color: var(--first-color);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  text-decoration-thickness: 1px;
+  transition: text-decoration-thickness 0.2s;
+}
+
+.about__link:hover {
+  text-decoration-thickness: 2px;
+}
+
 /*=============== SKILLS ===============*/
 .skills__container {
   row-gap: 2rem;
