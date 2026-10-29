@@ -1,0 +1,5 @@
+.ref
+.taste-skill
+node_modules
+.env.local
+*.md
